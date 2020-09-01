@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage     = 'https://github.com/YogaSolo/appstorekit-ios'
   spec.authors      = { 'YogaSolo Dev Team' => 'develop@yogasolo.app' }
-  spec.source       = { :git => 'git@github.com:YogaSolo/appstorekit-ios.git', :branch => ' feature/project-setup' }
+  spec.source       = { :git => 'git@github.com:YogaSolo/appstorekit-ios.git', :tag => spec.version }
 
   spec.platform = :ios
   spec.ios.deployment_target  = '11.0'
